@@ -1,1 +1,2 @@
-NEWS_API_KEY = 'your_ip_key_here'
+NEWS_API_KEY = 'c87e912b6d844007b0e3964596127c84'"
+
