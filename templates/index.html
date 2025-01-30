@@ -1,4 +1,3 @@
-<!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,13 +70,11 @@
 <div class="container">
     <h1>News Search Platform</h1>
     
-    <!-- Search Form -->
     <form class="search-form" method="POST">
         <input type="text" name="keyword" placeholder="Enter a keyword to search for news articles">
         <button type="submit">Search</button>
     </form>
 
-    <!-- Display News Articles -->
     <div class="news-articles">
         {% if articles %}
             {% for article in articles %}

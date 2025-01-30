@@ -1,46 +1,45 @@
-/* Reset some default styles for consistency */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and font setup */
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f4f8; /* Light grayish-blue background */
+    background-color: #f0f4f8; 
     color: #333;
     padding: 20px;
 }
 
-/* Centering the content and styling the main container */
+
 .container {
     max-width: 900px;
     margin: 0 auto;
-    background-color: #ffffff; /* White background for the content */
+    background-color: #ffffff; 
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
 }
 
-/* Header */
+
 h1 {
     font-size: 36px;
     text-align: center;
-    color: #2d3436; /* Darker shade of gray for the title */
+    color: #2d3436; 
     margin-bottom: 20px;
     letter-spacing: 1px;
     font-weight: 600;
 }
 
-/* Form container styling */
+
 form {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
 
-/* Input and button styling */
+
 input[type="text"] {
     width: 60%;
     padding: 14px 20px;
@@ -49,11 +48,11 @@ input[type="text"] {
     border-radius: 8px;
     margin-right: 10px;
     transition: border-color 0.3s ease;
-    background-color: #ecf0f1; /* Light background for input */
+    background-color: #ecf0f1; 
 }
 
 input[type="text"]:focus {
-    border-color: #3498db; /* Blue border when focused */
+    border-color: #3498db; 
     outline: none;
 }
 
@@ -61,7 +60,7 @@ button {
     padding: 14px 24px;
     font-size: 18px;
     border: none;
-    background-color: #3498db; /* Bright blue for the button */
+    background-color: #3498db; 
     color: white;
     border-radius: 8px;
     cursor: pointer;
@@ -69,10 +68,10 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #2980b9; 
 }
 
-/* Articles list and individual article styles */
+
 ul {
     list-style-type: none;
     margin-top: 20px;
@@ -81,44 +80,44 @@ ul {
 li {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #ffffff; /* White background for each article */
+    background-color: #ffffff; 
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 li:hover {
-    background-color: #f4f6f9; /* Light gray background on hover */
-    transform: translateY(-5px); /* Raised effect on hover */
+    background-color: #f4f6f9; 
+    transform: translateY(-5px); 
 }
 
 li a {
     font-size: 20px;
     font-weight: 600;
-    color: #2980b9; /* Blue color for article titles */
+    color: #2980b9; 
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 li a:hover {
-    color: #1c6ea4; /* Darker blue on hover */
+    color: #1c6ea4; 
 }
 
 li p {
     font-size: 16px;
-    color: #7f8c8d; /* Soft gray text for descriptions */
+    color: #7f8c8d; 
     margin-top: 8px;
 }
 
-/* Footer styling */
+
 footer {
     text-align: center;
     margin-top: 40px;
     font-size: 14px;
-    color: #95a5a6; /* Light gray for footer text */
+    color: #95a5a6; 
 }
 
-/* Responsive design for smaller screens */
+
 @media (max-width: 768px) {
     .container {
         padding: 20px;
